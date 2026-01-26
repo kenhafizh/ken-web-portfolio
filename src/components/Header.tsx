@@ -4,10 +4,20 @@ import heroImage from "../assets/foto_me2.jpeg";
 
 export const Header = () => {
   return (
-    <div className="bg-slate-900 w-full h-full py-20">
-      <div className="container mx-auto max-w-7xl flex items-center justify-between px-6">
+    <div className="bg-slate-900 w-full h-full py-20 overflow-hidden">
+      <div className="container mx-auto max-w-7xl md:flex md:flex-row-reverse items-center justify-between px-6 md:gap-8">
+        <div className="relative mb-8 md:mb-0 flex justify-center">
+          <div className="absolute -bottom-6 -right-6 w-[260px] h-[300px] rounded-xl md:bg-slate-700"></div>
+          <div className="relative w-[260px] h-[300px] rounded-xl overflow-hidden shadow-xl">
+            <img
+              className="w-full h-full object-cover"
+              src={heroImage}
+              alt="profile-pic"
+            />
+          </div>
+        </div>
         <div className="max-w-2xl">
-          <h1 className="text-white text-4xl font-bold">
+          <h1 className="text-white text-2xl md:text-4xl font-bold">
             Hi, I'm Ken Hafizh 👋
           </h1>
           <p className="text-white font-light my-4">
@@ -28,16 +38,6 @@ export const Header = () => {
             <a href="https://www.instagram.com/kenhafizh" target="_blank">
               <FaInstagram className="text-2xl text-white" />
             </a>
-          </div>
-        </div>
-        <div className="relative">
-          <div className="absolute -bottom-6 -right-6 w-[260px] h-[300px] rounded-xl bg-slate-700"></div>
-          <div className="relative w-[260px] h-[300px] rounded-xl overflow-hidden shadow-xl">
-            <img
-              className="w-full h-full object-cover"
-              src={heroImage}
-              alt="profile-pic"
-            />
           </div>
         </div>
       </div>

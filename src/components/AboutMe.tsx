@@ -2,17 +2,17 @@ import heroImage from "../assets/foto_me3.jpeg";
 
 export const AboutMe = () => {
   return (
-    <div className="w-full bg-slate-800 py-14 ">
+    <div className="w-full bg-slate-800 py-14 overflow-hidden">
       <div className="text-center mb-12">
         <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm">
           About Me
         </button>
       </div>
 
-      <div className="container mx-auto flex max-w-7xl justify-center items-start gap-16 px-6 ">
-        <div className="relative">
-          <div className="absolute -bottom-6 -left-6 w-[260px] h-[360px] rounded-xl bg-slate-700"></div>
-          <div className="relative w-[260px] h-[360px] rounded-xl overflow-hidden shadow-xl">
+      <div className="container mx-auto md:flex max-w-7xl justify-center items-start gap-16 px-6">
+        <div className="relative mb-8 md:mb-0 mx-auto md:mx-0">
+          <div className="absolute -bottom-6 -left-6 w-full max-w-[260px] h-[360px] rounded-xl md:bg-slate-700"></div>
+          <div className="relative w-full max-w-[260px] h-[360px] rounded-xl overflow-hidden shadow-xl">
             <img
               className="w-full h-full object-cover"
               src={heroImage}

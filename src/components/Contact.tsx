@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full bg-slate-900 py-16 px-36 text-center">
+    <div className="w-full bg-slate-900 py-16 px-6 md:px-36 text-center overflow-hidden">
       <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm mb-8">
         Get in touch
       </button>

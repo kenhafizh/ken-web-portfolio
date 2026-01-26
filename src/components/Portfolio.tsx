@@ -4,7 +4,7 @@ const progLanguage = ["Flutter", "Bloc", "Rest API", "Android", "IOS"];
 
 const Portfolio = () => {
   return (
-    <div className="w-full bg-slate-900 py-16 px-36 text-center">
+    <div className="w-full bg-slate-900 py-16 px-6 md:px-36 text-center overflow-hidden">
       <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm mb-8">
         Portfolio
       </button>
@@ -12,13 +12,13 @@ const Portfolio = () => {
         Some of the noteworthy projects I have built:
       </h2>
 
-      <div className="w-full flex mt-12">
-        <div className="bg-slate-500 p-8 rounded-tl-2xl rounded-bl-2xl w-1/2 flex items-center justify-center">
+      <div className="w-full flex flex-col md:flex-row mt-12">
+        <div className="bg-slate-500 p-8 md:rounded-tl-2xl md:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full md:w-1/2 flex items-center justify-center">
           <div className="w-md">
             <img src={portfolioImage} alt="" />
           </div>
         </div>
-        <div className="bg-slate-700 p-8 rounded-tr-2xl rounded-br-2xl w-1/2 flex flex-col text-start justify-center">
+        <div className="bg-slate-700 p-8 md:rounded-tr-2xl md:rounded-br-2xl rounded-b-2xl md:rounded-b-none w-full md:w-1/2 flex flex-col text-start justify-center">
           <h1 className="text-white font-semibold text-3xl">Prestige</h1>
           <p className="text-white font-light mt-6">
             Prestige adalah platform penyewaan kendaraan dan layanan premium
@@ -42,8 +42,8 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="w-full flex mt-12">
-        <div className="bg-slate-500 p-8 rounded-tl-2xl rounded-bl-2xl w-1/2 flex items-center justify-center">
+      <div className="w-full flex flex-col md:flex-row mt-12">
+        <div className="bg-slate-500 p-8 md:rounded-tl-2xl md:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full md:w-1/2 flex items-center justify-center">
           <div className="w-md">
             <img src={portfolioImage} alt="" />
           </div>

@@ -1,6 +1,6 @@
 const Testimonials = () => {
   return (
-    <div className="w-full bg-slate-800">
+    <div className="w-full bg-slate-800 overflow-hidden">
       <div className="text-center py-24">
         <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm">
           Testimonials
@@ -9,7 +9,7 @@ const Testimonials = () => {
           Nice things people have said about me:
         </h1>
 
-        <div className="flex justify-center gap-12 p-12 ">
+        <div className="flex flex-col md:flex-row justify-center gap-8 md:gap-12 px-6 md:p-12">
           <div className="rounded-2xl bg-slate-600 pt-12 pr-12 pl-12 pb-24 flex flex-col items-center">
             <div className="w-16 h-16 rounded-full mb-3 overflow-hidden">
               <img
