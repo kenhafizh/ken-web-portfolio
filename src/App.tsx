@@ -1,5 +1,7 @@
 import { AboutMe } from "./components/AboutMe";
+import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 import { Header } from "./components/Header";
 import MySkill from "./components/MySkill";
 import { Navbar } from "./components/NavBar";
@@ -16,6 +18,8 @@ function App() {
       <Experience />
       <Portfolio />
       <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }

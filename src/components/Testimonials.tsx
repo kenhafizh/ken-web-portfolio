@@ -9,7 +9,7 @@ const Testimonials = () => {
           Nice things people have said about me:
         </h1>
 
-        <div className="flex gap-12 p-12">
+        <div className="flex justify-center gap-12 p-12 ">
           <div className="rounded-2xl bg-slate-600 pt-12 pr-12 pl-12 pb-24 flex flex-col items-center">
             <div className="w-16 h-16 rounded-full mb-3 overflow-hidden">
               <img
