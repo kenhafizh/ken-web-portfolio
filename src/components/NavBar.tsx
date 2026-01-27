@@ -10,10 +10,10 @@ export const Navbar = () => {
         <h1 className="text-white font-bold text-3xl">Ken.dev</h1>
         <div className="hidden md:flex gap-6 items-center">
           <ul className="text-white flex gap-8">
-            <li>About</li>
-            <li>Work</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#contact">Contact</a>
           </ul>
           <span className="text-slate-700 text-xl">|</span>
           <BsMoon className="text-white text-xl"></BsMoon>
