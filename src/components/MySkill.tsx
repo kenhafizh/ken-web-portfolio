@@ -31,11 +31,11 @@ const MySkill = () => {
         <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm mb-8">
           Skills
         </button>
-        <h2 className="text-white font-semibold text-sm">
-          The skills, tools and technologies I am really good at:
+        <h2 className="text-white font-semibold text-sm md:px-0 px-4">
+          The skills, tools and technologies I am really good at
         </h2>
 
-        <div className="mt-12 grid grid-cols-5 gap-8 max-w-2xl mx-auto ">
+        <div className="mt-12 grid md:grid-cols-5 grid-cols-3 gap-8 max-w-2xl mx-auto">
           {skill.map((skill, index) => (
             <div
               key={index}

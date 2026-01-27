@@ -14,7 +14,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full bg-slate-900 py-16 px-6 md:px-36 text-center overflow-hidden">
+    <div className="w-full bg-slate-900 py-16 px-8 text-center overflow-hidden">
       <button className="px-6 py-2 bg-slate-700 text-white rounded-full text-sm mb-8">
         Get in touch
       </button>
@@ -25,10 +25,10 @@ const Contact = () => {
         </h2>
       </div>
       <div className="flex gap-5 mt-12 justify-center items-center">
-        <MdOutlineEmail className="text-white text-2xl" />
+        <MdOutlineEmail className="text-white lg:text-2xl text-3xl" />
         <h1 className="text-white text-2xl font-bold">{email}</h1>
         <MdOutlineFileCopy
-          className="text-white text-2xl cursor-pointer"
+          className="text-white lg:text-2xl text-3xl cursor-pointer"
           onClick={() => handleCopy(email)}
           title="Copy Email"
         />

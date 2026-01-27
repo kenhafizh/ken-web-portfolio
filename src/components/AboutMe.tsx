@@ -10,9 +10,9 @@ export const AboutMe = () => {
       </div>
 
       <div className="container mx-auto md:flex max-w-7xl justify-center items-start gap-16 px-6">
-        <div className="relative mb-8 md:mb-0 mx-auto md:mx-0">
-          <div className="absolute -bottom-6 -left-6 w-full max-w-[260px] h-[360px] rounded-xl md:bg-slate-700"></div>
-          <div className="relative w-full max-w-[260px] h-[360px] rounded-xl overflow-hidden shadow-xl">
+        <div className="relative mb-8 md:mb-0 flex justify-center md:justify-start">
+          <div className="absolute -bottom-6 -left-6 w-[260px] h-[360px] rounded-xl md:bg-slate-700"></div>
+          <div className="relative w-[260px] h-[360px] rounded-xl overflow-hidden shadow-xl">
             <img
               className="w-full h-full object-cover"
               src={heroImage}

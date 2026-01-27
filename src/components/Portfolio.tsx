@@ -12,13 +12,13 @@ const Portfolio = () => {
         Some of the noteworthy projects I have built:
       </h2>
 
-      <div className="w-full flex flex-col md:flex-row mt-12">
-        <div className="bg-slate-500 p-8 md:rounded-tl-2xl md:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full md:w-1/2 flex items-center justify-center">
-          <div className="w-md">
+      <div className="w-full flex flex-col lg:flex-row mt-12">
+        <div className="bg-slate-500 p-8 md:rounded-tl-2xl lg:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full lg:w-1/2 flex items-center justify-center">
+          <div className="max-w-md w-full">
             <img src={portfolioImage} alt="" />
           </div>
         </div>
-        <div className="bg-slate-700 p-8 md:rounded-tr-2xl md:rounded-br-2xl rounded-b-2xl md:rounded-b-none w-full md:w-1/2 flex flex-col text-start justify-center">
+        <div className="bg-slate-700 p-8 lg:rounded-tr-2xl lg:rounded-br-2xl rounded-b-2xl lg:rounded-b-none w-full lg:w-1/2 flex flex-col text-start justify-center">
           <h1 className="text-white font-semibold text-3xl">Prestige</h1>
           <p className="text-white font-light mt-6">
             Prestige adalah platform penyewaan kendaraan dan layanan premium
@@ -42,20 +42,22 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col md:flex-row mt-12">
-        <div className="bg-slate-500 p-8 md:rounded-tl-2xl md:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full md:w-1/2 flex items-center justify-center">
-          <div className="w-md">
+      <div className="w-full flex flex-col lg:flex-row mt-12">
+        <div className="bg-slate-500 p-8 md:rounded-tl-2xl lg:rounded-bl-2xl rounded-t-2xl md:rounded-t-none w-full lg:w-1/2 flex items-center justify-center">
+          <div className="max-w-md w-full">
             <img src={portfolioImage} alt="" />
           </div>
         </div>
-        <div className="bg-slate-700 p-8 rounded-tr-2xl rounded-br-2xl w-1/2 flex flex-col text-start justify-center">
-          <h1 className="text-white font-semibold text-3xl">Erapet</h1>
+        <div className="bg-slate-700 p-8 lg:rounded-tr-2xl lg:rounded-br-2xl rounded-b-2xl lg:rounded-b-none w-full lg:w-1/2 flex flex-col text-start justify-center">
+          <h1 className="text-white font-semibold text-3xl">Prestige</h1>
           <p className="text-white font-light mt-6">
-            Aplikasi marketplace yang berfokus pada penjualan produk makanan dan
-            perawatan hewan peliharaan, khususnya anjing dan kucing. Aplikasi
-            ini dirancang untuk memudahkan pengguna dalam mencari, membeli, dan
-            mengelola kebutuhan hewan peliharaan melalui platform mobile yang
-            user-friendly.
+            Prestige adalah platform penyewaan kendaraan dan layanan premium
+            berbasis web dan mobile yang ditujukan untuk pasar Australia.
+            Aplikasi ini menyediakan berbagai layanan eksklusif seperti luxury
+            car, motor, drive day experience, akomodasi, yacht, private jet, dan
+            helikopter. Sistem dirancang dengan multi-role architecture untuk
+            mendukung kebutuhan User, Driver, dan Host dalam satu ekosistem
+            terintegrasi.
           </p>
           <div className="flex gap-2 mt-5 flex-wrap">
             {progLanguage.map((progLanguages, index) => (
