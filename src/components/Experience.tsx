@@ -1,4 +1,5 @@
 import logo from "../assets/zmi-logo-2.webp";
+import logoDark from "../assets/zmi-logo-blue.png";
 
 const Experience = () => {
   return (
@@ -16,7 +17,8 @@ const Experience = () => {
         <div className="max-w-7xl bg-slate-200 dark:bg-slate-700 rounded-2xl mx-6 mb-12">
           <div className="flex flex-col md:flex-row justify-between gap-6 p-6 md:p-8">
             <div className="w-32 md:w-48 mx-auto md:mx-0">
-              <img src={logo} alt="logo" />
+              <img src={logoDark} alt="logo" className="block dark:hidden" />
+              <img src={logo} alt="logo" className="hidden dark:block" />
             </div>
             <h1 className="text-slate-900 dark:text-white font-semibold text-xl md:text-2xl">
               Mobile Developer
@@ -49,7 +51,8 @@ const Experience = () => {
         <div className="max-w-7xl bg-slate-200 dark:bg-slate-700 rounded-2xl mx-6 mb-12">
           <div className="flex flex-col md:flex-row justify-between gap-6 p-6 md:p-8">
             <div className="w-32 md:w-48 mx-auto md:mx-0">
-              <img src={logo} alt="logo" />
+              <img src={logoDark} alt="logo" className="block dark:hidden" />
+              <img src={logo} alt="logo" className="hidden dark:block" />
             </div>
             <h1 className="text-slate-900 dark:text-white font-semibold text-xl md:text-2xl">
               Mobile Developer
