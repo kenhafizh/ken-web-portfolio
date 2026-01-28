@@ -24,8 +24,8 @@ export const Navbar = () => {
         <h1 className="text-slate-900 dark:text-white font-bold text-3xl">
           Ken.dev
         </h1>
-        <div className="hidden md:flex gap-6 items-center">
-          <ul className="text-slate-900 dark:text-white flex gap-8">
+        <div className="hidden md:flex lg:gap-6 gap-4 items-center">
+          <ul className="text-slate-900 dark:text-white flex gap-4 lg:gap-8">
             <a href="#about">About</a>
             <a href="#work">Work</a>
             <a href="#testimonials">Testimonials</a>
@@ -39,7 +39,7 @@ export const Navbar = () => {
           >
             {isDark ? "☀️ Light" : "🌙 Dark"}
           </button>
-          <button className="bg-white text-slate-700 py-1.5 px-4 rounded-2xl">
+          <button className="bg-slate-200 dark:bg-white text-slate-700 py-1.5 px-4 rounded-2xl">
             Download CV
           </button>
         </div>
